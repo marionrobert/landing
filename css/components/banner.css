@@ -3,20 +3,20 @@
   background-size: cover;
   background-position: center;
   color: rgb(204, 98, 139);
-  height: 300px;
-  padding: 100px 0;
+  padding: 3% 3%;
   font-family: 'Poppins', sans-serif;
 }
 
 .banner h1  {
   font-size: 48px;
   text-shadow: 1px 1px 3px rgb(0 0 0 / 80%);
-  margin: 0;
+  margin-left: 10%;
 }
 
 .banner p {
   font-size: 24px;
   text-shadow: 1px 1px 3px rgb(0 0 0 / 80%);
+  margin-left: 10%;
 }
 
 .banner a {
@@ -25,4 +25,14 @@
 
 .banner a:hover {
   color: rgba(204, 98, 139, 0.6 );
+}
+
+@media screen and (max-width: 1080px){
+  .banner h1 {
+    font-size: 150%;
+  }
+
+  .banner p {
+    font-size: 150%;
+  }
 }

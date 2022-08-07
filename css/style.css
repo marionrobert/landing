@@ -13,11 +13,11 @@
 /* Utilities */
 body {
   margin: 0;
-  font-family: Open Sans;
+  font-family: "Open Sans";
 }
 
 h1, h2, h3, h4 {
-  font-family: Poppins;
+  font-family: "Open Sans";
 }
 
 a {
@@ -26,6 +26,6 @@ a {
 
 /* Custom design below! */
 .container {
-  width: 900px;
+  /* width: 900px; */
   margin: auto;
 }

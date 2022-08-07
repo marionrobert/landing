@@ -1,9 +1,8 @@
 .footer {
   text-align: center;
-  margin: 40px 0 0;
   color: rgb(110, 105, 105);
   background-color: rgba(204, 98, 139, 0.2);
-  padding: 20px;
+  padding: 2% 0;
 }
 
 .footer-icons {
@@ -13,4 +12,9 @@
 
 .footer a {
   color: rgb(204, 98, 139);
+}
+
+.footer p {
+  margin-left: 0;
+  margin-right: 0;
 }
